@@ -8,15 +8,12 @@ I created this to analyze sample weather data (CSV) for Mersin and calculate eff
 You need the `pandas` library to run this script.
 ```bash
 pip install pandas
-How It Works
+## How It Works
 Reads Data: Loads weather_data.csv containing temperature and sun hours.
 
 Calculates Stats: Computes average temperature and total sun duration.
 
 Detects Efficiency Loss: Identifies days where temperature exceeds the threshold.
-
-Sample Output
-Plaintext
 
 --- MERSIN SOLAR DATA ANALYSIS ---
 Average Max Temp: 33.30 C
