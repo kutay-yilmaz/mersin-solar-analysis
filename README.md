@@ -10,7 +10,7 @@ You need the `pandas` library to run this script.
 pip install pandas
 ```
 
-How It Works
+## How It Works
 Reads Data: Loads weather_data.csv containing temperature and sun hours.
 
 Calculates Stats: Computes average temperature and total sun duration.
