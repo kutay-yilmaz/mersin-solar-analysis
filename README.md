@@ -1,24 +1,22 @@
-# Mersin Solar Data Analysis
+# Mersin Solar & Energy Optimization Analysis
 
-Simple data analysis script using **Python** and **Pandas**.
+This repository focuses on solar energy calculations and industrial energy cost optimization using Python.
 
-I created this to analyze sample weather data (CSV) for Mersin and calculate efficiency losses in Solar PV systems due to high temperatures.
+## My Projects
 
-## Dependencies
-You need the `pandas` library to run this script.
-```bash
-pip install pandas
-```
+### 1. Solar Data Analysis (mersin_solar_analysis.py)
+Simple data analysis script using Python and Pandas.
+- Analyzes weather data for Mersin/Turkey.
+- Calculates efficiency losses in Solar PV systems due to high temperatures.
 
-## How It Works
-Reads Data: Loads weather_data.csv containing temperature and sun hours.
+### 2. Industrial Energy Optimizer (energy_cost_optimizer.py)
+A Peak Shaving and Cost Reduction algorithm for industrial facilities.
+- Uses battery storage to shift loads from expensive hours to cheap hours.
+- Helps to reduce electricity bills based on dynamic pricing.
 
-Calculates Stats: Computes average temperature and total sun duration.
+## How to Run
+You need the pandas and matplotlib libraries:
+`pip install pandas matplotlib`
 
-Detects Efficiency Loss: Identifies days where temperature exceeds the threshold.
-
-Output Preview
-Running the script produces the following analysis:
-
-Author: Kutay Yilmaz
-
+---
+**Author:** Kutay Yilmaz
